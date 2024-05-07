@@ -1,0 +1,13 @@
+Calculating no of males and females
+
+female/male=sex_ratio    ----------1
+females+males=population ----------2
+
+females=population-males ----------3
+(population-males)=(sex_ratio)*males
+population = males(sex_ratio+1)
+
+males=population/(sex_ratio+1)
+females=population-population/(sex_ratio+1) 
+       =population(1-1/(sex_ratio+1)) 
+       =(population*(sex_ratio))/(sex_ratio+1)
