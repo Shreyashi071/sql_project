@@ -1,4 +1,4 @@
-Calculating no of males and females
+1)Calculating no of males and females
 
 female/male=sex_ratio    ----------1
 females+males=population ----------2
@@ -11,3 +11,13 @@ males=population/(sex_ratio+1)
 females=population-population/(sex_ratio+1) 
        =population(1-1/(sex_ratio+1)) 
        =(population*(sex_ratio))/(sex_ratio+1)
+
+
+2)Literacy
+Total literate people/population = Literacy_ratio
+Total literate people = Literacy_ratio*popilation
+Total illiterate people = (1- Literacy_ratio)*population
+
+3)population
+previous_census+growth*previous_census=population
+previous_census=population/(1+growth)
